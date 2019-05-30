@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
+import Users from './Users/Users'
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      Hello world !.
+      <Users title = "User List"/>
     </div>
   );
 }
